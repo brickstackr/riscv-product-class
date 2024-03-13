@@ -1,7 +1,0 @@
-Once again the RISC-V output was significantly longer than the x86 output. 
-x86 - 124 lines
-RISC-V - 164 lines
-
-The x86 code is mostly just mov and add instructions. 
-The RISC-V code has a lot of SLLI (Shift Left Logical Immediate) instructions and load instructions.
-It's a little bit harder to read. 
